@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfe6c99c-15a9-4058-96e7-ac1e0acedc73" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/dev/app.js" afterPath="$PROJECT_DIR$/js/dev/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/dist/app.min.js" afterPath="$PROJECT_DIR$/js/dist/app.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HTML5_Gaming.iws" />
@@ -72,7 +70,7 @@
       <file leaf-file-name="app.min.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/dist/app.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
               <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
               <folding />
             </state>
@@ -297,12 +295,20 @@
       <option name="number" value="Default" />
       <updated>1431938793136</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixing local storage">
+      <created>1432223757180</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1432223757180</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -339,6 +345,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="fixing local storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing local storage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
