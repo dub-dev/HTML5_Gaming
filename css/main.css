@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background: url(imgs/background.jpg) no-repeat fixed center center;
+}
+
+#gameContainer {
+    display: table;
+    border:30px solid #000;
+    margin: 0 auto;
+    cursor:crosshair;
+    border-radius:20px;
+    box-shadow:0 0 50px black;
+}
+
+.title{
+    margin-top:20px;
+    margin-bottom:20px;
+    width:100%;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    font-size:50px;
+}
+
+footer{
+    width:100%;
+    position: absolute;
+    bottom:0;
+    text-align:center;
+    padding-bottom:10px;
+    padding-top:10px;
+}

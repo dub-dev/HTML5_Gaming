@@ -1,0 +1,12 @@
+{
+  "name": "HTML5_Gaming",
+  "version": "0.1",
+  "authors": [
+    "Dubouchet <thibaud.dubouchet@epitech.eu>"
+  ],
+  "description": "HTML5 Gaming Project",
+  "license": "MIT",
+  "devDependencies": {
+    "phaser": "~2.3.0"
+  }
+}
