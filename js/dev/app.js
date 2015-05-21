@@ -37,7 +37,7 @@
     var gameover;
     var factor = 1;
     var best = 0;
-    if (typeof localStorage != 'undefined') {
+    /*if (typeof localStorage != 'undefined') {
         if ('best' in localStorage) {
             best = localStorage.getItem('best');
         } else {
@@ -45,7 +45,7 @@
         }
     } else {
         best = 0;
-    }
+    }*/
 
     var game = new Phaser.Game(_GAME_WIDTH, _GAME_HEIGHT, Phaser.AUTO, 'gameContainer', {
         preload: preload,
@@ -224,12 +224,15 @@
         }
 
         if (typeof localStorage != 'undefined') {
-            if (('best' in localStorage) && points > localStorage.getItem('best')) {
+            if (('best' in localStorage)) {
+                if(points > localStorage.getItem('best')) {
+                    localStorage.setItem('best', points);
+                    best = points;
+                }
+            } else {
                 localStorage.setItem('best', points);
-                best = localStorage.getItem('best');
+                best = points;
             }
-        } else {
-            best = 0;
         }
     }
 
