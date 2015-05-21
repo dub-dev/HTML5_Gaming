@@ -185,7 +185,7 @@
         if (best != 0) {
             scoreText.setText('Score : ' + points + ' - Best score : ' + best);
         } else {
-            scoreText.setText(points);
+            scoreText.setText('Score : ' + points);
         }
 
         fire.position.x = gun.position.x - 160;
