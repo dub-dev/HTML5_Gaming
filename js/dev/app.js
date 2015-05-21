@@ -217,6 +217,8 @@
         if (typeof localStorage != 'undefined') {
             if (('best' in localStorage) && points > localStorage.getItem('best')) {
                 localStorage.setItem('best', points);
+            } else if (!('best' in localStorage)){
+                localStorage.setItem('best', points);
             }
             best = localStorage.getItem('best');
         }
