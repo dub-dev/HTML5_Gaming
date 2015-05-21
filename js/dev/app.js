@@ -37,15 +37,6 @@
     var gameover;
     var factor = 1;
     var best = 0;
-    /*if (typeof localStorage != 'undefined') {
-        if ('best' in localStorage) {
-            best = localStorage.getItem('best');
-        } else {
-            best = 0;
-        }
-    } else {
-        best = 0;
-    }*/
 
     var game = new Phaser.Game(_GAME_WIDTH, _GAME_HEIGHT, Phaser.AUTO, 'gameContainer', {
         preload: preload,
@@ -225,7 +216,8 @@
 
         if (typeof localStorage != 'undefined') {
             if (('best' in localStorage)) {
-                if(points > localStorage.getItem('best')) {
+                best = localStorage.getItem('best');
+                if (points > localStorage.getItem('best')) {
                     localStorage.setItem('best', points);
                     best = points;
                 }
