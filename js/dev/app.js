@@ -215,16 +215,10 @@
         }
 
         if (typeof localStorage != 'undefined') {
-            if (('best' in localStorage)) {
-                best = localStorage.getItem('best');
-                if (points > localStorage.getItem('best')) {
-                    localStorage.setItem('best', points);
-                    best = points;
-                }
-            } else {
+            if (('best' in localStorage) && points > localStorage.getItem('best')) {
                 localStorage.setItem('best', points);
-                best = points;
             }
+            best = localStorage.getItem('best');
         }
     }
 
