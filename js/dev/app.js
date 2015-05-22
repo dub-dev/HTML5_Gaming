@@ -233,6 +233,7 @@
         birdSpeed = 120;
         sounds = [];
         impacts = [];
+        factor = 1;
         create();
     }
 
